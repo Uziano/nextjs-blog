@@ -30,11 +30,11 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/just-me.jpg"
+              src="/images/me.jpg"
               className={utilStyles.borderCircle}
-              height={180}
+              height={140}
               width={140}
-              alt=""
+              alt="Profile Pic"
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
@@ -43,9 +43,9 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <Image
                 priority
-                src="/images/just-me.jpg"
+                src="/images/me.jpg"
                 className={utilStyles.borderCircle}
-                height={180}
+                height={140}
                 width={140}
                 alt=""
               />
